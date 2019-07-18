@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="back_color">#00f0f0</color>
+    <color name="fore_color">#d3992b</color>
+    <color name="black_color">#000000</color>
+
+    <color name="first_progress_color">#F8EDED</color>
+    <color name="second_progress_color">#EC918F</color>
+</resources>

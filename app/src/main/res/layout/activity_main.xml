@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hbandroid.viewdemo.MainActivity">
+
+
+    <com.hbandroid.viewdemo.view.HBLevelView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        app:backColor="#191633"
+        app:endProgress="2000"
+        app:foreColor="#d3992b"
+        app:textSize="16sp"
+        app:rectCorn="2px"
+        app:scurrProgress="1594"
+        app:startProgress="1000"
+        app:textColor="#ffffff" />
+
+    <com.hbandroid.viewdemo.view.DefineProgressView
+        android:id="@+id/levelView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        app:currProgress="0"
+        app:firstColor="@color/first_progress_color"
+        app:progressTextColor="@color/second_progress_color"
+        app:progressTextSize="16sp"
+        app:progressHeight="20dp"
+        app:progressMarginText="1dp"
+        app:secondColor="@color/second_progress_color"
+        app:textColor="@color/black_color" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="clickGo"
+        android:text="快进" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="clickReset"
+        android:text="重置" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="clickBack"
+        android:text="快退" />
+
+</LinearLayout>
