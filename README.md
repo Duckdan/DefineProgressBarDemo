@@ -1,2 +1,2 @@
-# LevelProgressDemo
-带文字和进度条的等级进度展示
+# DefineProgressBarDemo
+自定义进度(带百分比)
